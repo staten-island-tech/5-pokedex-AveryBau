@@ -6,6 +6,8 @@ hm = int(input("What pokemon you want?"))
 value = data[hm]
 poke = []
 print("name is", value)
+language = input(("What language?"))
+print(data[hm]["name"][language])
 
 print(data[0]["name"])
 print(data[1]["name"])
