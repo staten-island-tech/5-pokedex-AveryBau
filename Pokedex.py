@@ -23,7 +23,7 @@ for mon in data:
 else:
     print("No pokemon for you") """
 
-poke = open("./movesjson", encoding="utf8")
+poke = open("./moves.json", encoding="utf8")
 moves = json.load(poke)
 uhh = input("What type of pokemon do you want to show the moves available")
 for mon in moves:
