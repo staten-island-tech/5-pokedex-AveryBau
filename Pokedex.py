@@ -9,12 +9,13 @@ print("name is", value)
 language = input(("What language?"))
 print(data[choice]["name"][language])
 
-new = input("What type of pokemon do you want?")
+""" new = input("What type of pokemon do you want?")
 for mon in data: 
     if new in mon["type"]:
         print(mon["name"])
 else:
     print("What the heck is that")
+    
 
 huh = input("What kind of pokemon do you want?")
 for mon in data:
@@ -33,4 +34,4 @@ else:
     print("no moves")
 
 print(data[0]["name"])
-print(data[1]["name"])
+print(data[1]["name"]) """
